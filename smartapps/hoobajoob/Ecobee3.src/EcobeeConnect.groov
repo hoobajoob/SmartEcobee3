@@ -29,7 +29,7 @@
  *	0.9.20 - Custom Home66 Integration
  *
  */  
-def getVersionNum() { return "0.9.20" }
+def getVersionNum() { return "0.9.21 }
 private def getVersionLabel() { return "Ecobee (Connect) Version ${getVersionNum()}" }
 private def getHelperSmartApps() {
 	return [ 
@@ -45,7 +45,7 @@ private def getHelperSmartApps() {
 definition(
 	name: "Ecobee (Connect)",
 	namespace: "smartthings",
-	author: "Sean Kendall Schneyer",
+	author: "KC Embrey",
 	description: "Connect your Ecobee thermostat to SmartThings.",
 	category: "My Apps",
 	iconUrl: "https://s3.amazonaws.com/smartapp-icons/Partner/ecobee.png",
